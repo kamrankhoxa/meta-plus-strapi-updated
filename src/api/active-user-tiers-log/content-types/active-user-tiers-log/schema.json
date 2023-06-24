@@ -4,7 +4,8 @@
   "info": {
     "singularName": "active-user-tiers-log",
     "pluralName": "active-user-tiers-logs",
-    "displayName": "Active User Tiers Log"
+    "displayName": "Active User Tiers Log",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -21,7 +22,8 @@
       "type": "datetime"
     },
     "completed": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": false
     },
     "user": {
       "type": "relation",

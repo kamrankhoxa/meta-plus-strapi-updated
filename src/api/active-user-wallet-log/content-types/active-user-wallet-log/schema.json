@@ -22,7 +22,8 @@
       "type": "float"
     },
     "approve": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": false
     },
     "active_user_tiers_log": {
       "type": "relation",
